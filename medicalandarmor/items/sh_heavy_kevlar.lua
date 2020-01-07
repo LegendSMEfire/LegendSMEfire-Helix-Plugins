@@ -8,12 +8,10 @@ ITEM.functions.Apply = {
 	sound = "items/battery_pickup.wav",
 	OnRun = function(itemTable)
 		local client = itemTable.player
-          
-	    for _, v in pairs( player.GetAll() ) do
-	if v:Armor() == 0 then
-		 v:SetArmor( 200 )
-    end
-        end
+
+		client:SetArmor(200)
+	return true	
+                 
 end            
 
 }
