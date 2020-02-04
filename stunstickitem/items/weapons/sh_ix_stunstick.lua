@@ -1,3 +1,4 @@
+-- Take the whole plugin, don't just take the item bro
 ITEM.name = "Stunstick"
 ITEM.description = "A 22 inch stick with a taser shape at the tip of the stick itself; it uses a 150KV function and can be used to neutralize a target during an impact."
 ITEM.model = "models/weapons/w_stunbaton.mdl"
